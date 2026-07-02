@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "autofarm",
+  "version": "${version}",
+  "name": "AutoFarm",
+  "description": "Client-side automation: opens spawner loot menus, drops a configurable number of pages, then sells the result to the highest-paying order.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.autofarm.AutoFarmMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "fabric-api": "*",
+    "minecraft": "~26.1",
+    "java": ">=25"
+  }
+}

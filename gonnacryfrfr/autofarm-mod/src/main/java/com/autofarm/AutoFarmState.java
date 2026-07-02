@@ -1,0 +1,31 @@
+package com.autofarm;
+
+public enum AutoFarmState {
+    IDLE,
+
+    // Spawner loot collection
+    INTERACT_SPAWNER,
+    WAIT_LOOT_SCREEN,
+    DROP_PAGE,
+    WAIT_AFTER_DROP,
+    NEXT_PAGE,
+    WAIT_AFTER_NEXT,
+    CLOSE_LOOT_SCREEN,
+
+    // Selling
+    WAIT_BEFORE_ORDER_COMMAND,
+    SEND_ORDER_COMMAND,
+    WAIT_ORDER_SCREEN,
+    SELL_ITEM,
+    WAIT_AFTER_SELL_CLICK,
+    OPEN_CONFIRM_SCREEN,
+    WAIT_CONFIRM_SCREEN,
+    CLICK_CONFIRM,
+    WAIT_AFTER_CONFIRM,
+
+    // Closing out
+    CLOSE_ORDERS_FIRST_ESCAPE,
+    WAIT_BETWEEN_ESCAPES,
+    CLOSE_ORDERS_SECOND_ESCAPE,
+    WAIT_BEFORE_RESTART
+}
